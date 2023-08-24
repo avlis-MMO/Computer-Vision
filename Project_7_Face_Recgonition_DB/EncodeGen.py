@@ -8,7 +8,7 @@ from firebase_admin import db
 from firebase_admin import storage
 
 # Initialize Firebase using the provided credentials file, database URL, and storage bucket
-cred = credentials.Certificate("./FaceRecRealTimeDB/faceattendancerealtime-25805-firebase-adminsdk-loosv-b83b4282c9.json")
+cred = credentials.Certificate(".cred.json")
 firebase_admin.initialize_app(cred, {
     'databaseURL': 'https://faceattendancerealtime-25805-default-rtdb.firebaseio.com/',
     'storageBucket' : 'faceattendancerealtime-25805.appspot.com'
@@ -46,7 +46,7 @@ encodeListKnowWithIDs = [encodeListKnow, studentsID]
 print("Encoding complete")
 
 # Save the encoded data using pickle
-file = open("./FaceRecRealTimeDB/EncodeFile.p", "wb")
+file = open("./EncodeFile.p", "wb")
 pickle.dump(encodeListKnowWithIDs, file)
 file.close()
 print("File saved")
