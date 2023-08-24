@@ -7,7 +7,7 @@ import time
 from sort import *
 
 # Initialize the video capture using the specified video file
-cap = cv2.VideoCapture("./CarCounter/Videos/cars.mp4")
+cap = cv2.VideoCapture("./Videos/cars.mp4")
 
 # Load the YOLO model from the specified weights file
 model = YOLO("./Yolo-Weights/yolov8n.pt")
