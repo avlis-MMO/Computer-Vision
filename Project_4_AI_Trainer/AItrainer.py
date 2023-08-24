@@ -6,7 +6,7 @@ import numpy as np
 import math
 
 # Open a video capture object using the specified video file
-cap = cv2.VideoCapture('aitrainer\\ait2.mp4')
+cap = cv2.VideoCapture('./aitrainer/ait2.mp4')
 
 # Initialize variables to track time and pose
 ptime = 0
