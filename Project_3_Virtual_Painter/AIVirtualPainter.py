@@ -18,7 +18,7 @@ brushThick = 15
 eraserThick = 50
 
 # Define the folder path where overlay images are stored
-folderPath = "C:\\Users\\gonca\\Desktop\\TheGoodStuff\\Courses\\Adavced CV\\VAI"
+folderPath = "./VP_imgs"
 
 # List all image files in the folder
 mylist = os.listdir(folderPath)
