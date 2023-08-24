@@ -3,7 +3,7 @@ from firebase_admin import credentials
 from firebase_admin import db
 
 # Initialize Firebase using the provided credentials file and database URL
-cred = credentials.Certificate("./FaceRecRealTimeDB/faceattendancerealtime-25805-firebase-adminsdk-loosv-b83b4282c9.json")
+cred = credentials.Certificate("./cred.json")
 firebase_admin.initialize_app(cred, {
     'databaseURL': 'https://faceattendancerealtime-25805-default-rtdb.firebaseio.com/'
 })
