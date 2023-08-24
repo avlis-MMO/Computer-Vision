@@ -17,8 +17,7 @@ cap.set(4, hCam)
 ptime = 0
 
 # Define the folder path where overlay images are stored
-folderPath = "C:\\Users\\gonca\\Desktop\\TheGoodStuff\\Courses\\Adavced CV\\imgs"
-
+folderPath = "./imgs"
 # List all image files in the folder
 mylist = os.listdir(folderPath)
 print(mylist)
