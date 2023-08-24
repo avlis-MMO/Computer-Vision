@@ -4,7 +4,7 @@ Welcome to the **Hand Gesture Virtual Mouse** project. This project introduces a
 
 ## Project Overview
 
-The **Hand Gesture Virtual Mouse Project** exemplifies the innovative use of hand gestures as a virtual mouse:
+The **Hand Gesture Virtual Mouse** exemplifies the innovative use of hand gestures as a virtual mouse:
 
 - **Hand Detection:** The project employs computer vision to accurately identify and track the position of the user's hand.
 
