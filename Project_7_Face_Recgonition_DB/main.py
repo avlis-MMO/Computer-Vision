@@ -25,10 +25,10 @@ cap.set(3, 640)
 cap.set(4, 480)
 
 # Load background image
-imgBackGround = cv2.imread("./FaceRecRealTimeDB/Resources/background.png")
+imgBackGround = cv2.imread(".Resources/background.png")
 
 # Importing the modes to a list
-folderModePath = "./FaceRecRealTimeDB/Resources/Modes"
+folderModePath = "./Resources/Modes"
 modePathList = os.listdir(folderModePath)
 imgModeList = []
 
@@ -38,7 +38,7 @@ for path in modePathList:
 print(len(imgModeList))
 
 # Import the encoding file
-file = open("./FaceRecRealTimeDB/EncodeFile.p", "rb")
+file = open("./EncodeFile.p", "rb")
 encodeListKnowWithIDs = pickle.load(file)
 file.close()
 encodeListKnow, studentsID = encodeListKnowWithIDs
