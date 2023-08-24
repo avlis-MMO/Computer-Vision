@@ -1,6 +1,6 @@
 # Volume Control
 
-Welcome to the **Volume Control** project repository. This project showcases an innovative approach to adjusting the PC's volume through computer vision techniques. By detecting the distance between two fingers, the script dynamically controls the volume level.
+Welcome to the **Volume Control** project. This project showcases an innovative approach to adjusting the PC's volume through computer vision techniques. By detecting the distance between two fingers, the script dynamically controls the volume level.
 
 ## Project Overview
 
