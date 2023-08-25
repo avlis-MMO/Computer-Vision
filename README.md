@@ -15,3 +15,5 @@ This repository presents a diverse collection of computer vision projects:
 - **Virtual Painter:** Explore the project where hand marks are used to choose different colors and draw on the screen.
 
 - **Object Detection with YOLO:** Dive into the world of deep learning as the YOLO model is employed to detect and classify objects, from cars in videos to safety equipment in images.
+  
+- **Face Recognition:** Through face recognition an attendance app was developed to check the attendance of people and update their information on a DB.
